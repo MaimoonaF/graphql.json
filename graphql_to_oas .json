@@ -1,0 +1,3110 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "GraphQL API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/_alertsMeta": {
+      "get": {
+        "summary": "Perform the _alertsMeta operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/_driveAlertsMeta": {
+      "get": {
+        "summary": "Perform the _driveAlertsMeta operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/_driveUsersMeta": {
+      "get": {
+        "summary": "Perform the _driveUsersMeta operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/_drivesMeta": {
+      "get": {
+        "summary": "Perform the _drivesMeta operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/_jobExecutionsMeta": {
+      "get": {
+        "summary": "Perform the _jobExecutionsMeta operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/_jobsMeta": {
+      "get": {
+        "summary": "Perform the _jobsMeta operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/_logsMeta": {
+      "get": {
+        "summary": "Perform the _logsMeta operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/_organizationsMeta": {
+      "get": {
+        "summary": "Perform the _organizationsMeta operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/_usersMeta": {
+      "get": {
+        "summary": "Perform the _usersMeta operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/alert": {
+      "get": {
+        "summary": "Perform the alert operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Alert"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/alerts": {
+      "get": {
+        "summary": "Perform the alerts operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/alertsTriggerMeta": {
+      "get": {
+        "summary": "Perform the alertsTriggerMeta operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/backup": {
+      "get": {
+        "summary": "Perform the backup operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Backup"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/backupFile": {
+      "get": {
+        "summary": "Perform the backupFile operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BackupFile"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/backupFiles": {
+      "get": {
+        "summary": "Perform the backupFiles operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/backups": {
+      "get": {
+        "summary": "Perform the backups operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/dashBoardJobMeta": {
+      "get": {
+        "summary": "Perform the dashBoardJobMeta operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/dashBoardUserActivity": {
+      "get": {
+        "summary": "Perform the dashBoardUserActivity operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/drive": {
+      "get": {
+        "summary": "Perform the drive operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/driveAlert": {
+      "get": {
+        "summary": "Perform the driveAlert operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DriveAlert"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/driveAlerts": {
+      "get": {
+        "summary": "Perform the driveAlerts operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/driveFiles": {
+      "get": {
+        "summary": "Perform the driveFiles operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/driveFilesOfPath": {
+      "get": {
+        "summary": "Perform the driveFilesOfPath operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/driveFolders": {
+      "get": {
+        "summary": "Perform the driveFolders operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/driveReport": {
+      "get": {
+        "summary": "Perform the driveReport operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Report"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/driveUser": {
+      "get": {
+        "summary": "Perform the driveUser operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DriveUser"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/driveUsers": {
+      "get": {
+        "summary": "Perform the driveUsers operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/driveUsersPermission": {
+      "get": {
+        "summary": "Perform the driveUsersPermission operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/drives": {
+      "get": {
+        "summary": "Perform the drives operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/emailMap": {
+      "get": {
+        "summary": "Perform the emailMap operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmailMap"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/emailMaps": {
+      "get": {
+        "summary": "Perform the emailMaps operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/forgotPassword": {
+      "get": {
+        "summary": "Perform the forgotPassword operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/forgotUserName": {
+      "get": {
+        "summary": "Perform the forgotUserName operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/getDriveFolders": {
+      "get": {
+        "summary": "Perform the getDriveFolders operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/globalAlerts": {
+      "get": {
+        "summary": "Perform the globalAlerts operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/globalSearch": {
+      "get": {
+        "summary": "Perform the globalSearch operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/job": {
+      "get": {
+        "summary": "Perform the job operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Job"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/jobExecution": {
+      "get": {
+        "summary": "Perform the jobExecution operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JobExecution"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/jobExecutionErrorGraph": {
+      "get": {
+        "summary": "Perform the jobExecutionErrorGraph operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/jobExecutionTransfers": {
+      "get": {
+        "summary": "Perform the jobExecutionTransfers operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/jobExecutions": {
+      "get": {
+        "summary": "Perform the jobExecutions operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/jobReport": {
+      "get": {
+        "summary": "Perform the jobReport operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Report"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/jobs": {
+      "get": {
+        "summary": "Perform the jobs operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/log": {
+      "get": {
+        "summary": "Perform the log operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Log"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/logs": {
+      "get": {
+        "summary": "Perform the logs operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/notification": {
+      "get": {
+        "summary": "Perform the notification operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Notification"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/notifications": {
+      "get": {
+        "summary": "Perform the notifications operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/notificationsMeta": {
+      "get": {
+        "summary": "Perform the notificationsMeta operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/organization": {
+      "get": {
+        "summary": "Perform the organization operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Organization"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/organizationReport": {
+      "get": {
+        "summary": "Perform the organizationReport operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Report"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/organizations": {
+      "get": {
+        "summary": "Perform the organizations operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/resendInviteLink": {
+      "get": {
+        "summary": "Perform the resendInviteLink operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/restore": {
+      "get": {
+        "summary": "Perform the restore operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Restore"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/restores": {
+      "get": {
+        "summary": "Perform the restores operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/scheduledJobCategoryMeta": {
+      "get": {
+        "summary": "Perform the scheduledJobCategoryMeta operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/user": {
+      "get": {
+        "summary": "Perform the user operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/userInfo": {
+      "get": {
+        "summary": "Perform the userInfo operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/users": {
+      "get": {
+        "summary": "Perform the users operation",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/None"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Alert": {
+        "type": "object",
+        "properties": {
+          "alertName": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "job": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "trigerStatus": {
+            "type": "string"
+          },
+          "triggerCount": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updatedAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "users": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "AlertTriggerMeta": {
+        "type": "object",
+        "properties": {
+          "DriveAuthFail": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "DriveNameChanged": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "DriveStatusChanged": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "JobCompleted": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "JobFailed": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "StorageFull": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "Backup": {
+        "type": "object",
+        "properties": {
+          "backupFiles": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "drive": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "fileCount": {
+            "type": "number"
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "job": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "jobExecution": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "note": {
+            "type": "string"
+          },
+          "restore": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "size": {
+            "type": "number"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      },
+      "BackupFile": {
+        "type": "object",
+        "properties": {
+          "backup": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "bytes": {
+            "type": "number"
+          },
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "direction": {
+            "type": "string"
+          },
+          "drive": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "error": {
+            "type": "string"
+          },
+          "fileId": {
+            "type": "string"
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "lastModified": {
+            "type": "string"
+          },
+          "mimeType": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      },
+      "BatchPayload": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "DashBoardJobMeta": {
+        "type": "object",
+        "properties": {
+          "failedSyncs": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "filesSynced": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "filesUnSynced": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "jobs": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "partialSuccessSyncs": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "reportsDownloaded": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "successSyncs": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "syncLimit": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "totalSyncs": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "userAdded": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "userInvited": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "Drive": {
+        "type": "object",
+        "properties": {
+          "DriveProvider": {
+            "type": "string"
+          },
+          "StorageHistory": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "backupStatus": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createdBy": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "destination": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "driveUsers": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "lastSync": {
+            "type": "string"
+          },
+          "lastSyncSuccess": {
+            "type": "string"
+          },
+          "limits": {
+            "type": "string"
+          },
+          "logs": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "name": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "organization": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "redirectUrl": {
+            "type": "string"
+          },
+          "source": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "status": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updatedAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "DriveAlert": {
+        "type": "object",
+        "properties": {
+          "alertName": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "drive": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "trigerStatus": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "triggerCount": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updatedAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "users": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "DriveFiles": {
+        "type": "object",
+        "properties": {
+          "cursor": {
+            "type": "string"
+          },
+          "list": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "DriveFolders": {
+        "type": "object",
+        "properties": {
+          "entries": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "limit": {
+            "type": "number"
+          },
+          "offset": {
+            "type": "number"
+          },
+          "total_count": {
+            "type": "number"
+          },
+          "type": {
+            "type": "number"
+          }
+        }
+      },
+      "DriveUser": {
+        "type": "object",
+        "properties": {
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "drive": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "permissions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "role": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "user": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "EmailMap": {
+        "type": "object",
+        "properties": {
+          "box": {
+            "type": "string"
+          },
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "fullName": {
+            "type": "string"
+          },
+          "gDrive": {
+            "type": "string"
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "oneDrive": {
+            "type": "string"
+          },
+          "organization": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "thumbnail": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "GenerateOtpResponse": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "factorId": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "oktaId": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "GlobalAlert": {
+        "type": "object",
+        "properties": {
+          "createdAt": {
+            "type": "string"
+          },
+          "driveId": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "jobId": {
+            "type": "string"
+          },
+          "note": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "status": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "triggerStatus": {
+            "type": "string"
+          }
+        }
+      },
+      "GlobalSearch": {
+        "type": "object",
+        "properties": {
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "entity": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "name": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "Job": {
+        "type": "object",
+        "properties": {
+          "accessMappingAtoB": {
+            "type": "string"
+          },
+          "accessMappingBtoA": {
+            "type": "string"
+          },
+          "accessMappingSetting": {
+            "type": "string"
+          },
+          "alerts": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createdByUser": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "dailyExecutionTime": {
+            "type": "string"
+          },
+          "destination": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "details": {
+            "type": "string"
+          },
+          "forcedOverwriteFile": {
+            "type": "boolean"
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "isBackup": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "jobCreatedFrom": {
+            "type": "string"
+          },
+          "jobExecutions": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "jobType": {
+            "type": "string"
+          },
+          "lastSyncSuccess": {
+            "type": "string"
+          },
+          "logs": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "monthlyExecutionDetails": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "name": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "oneTimeExecution": {
+            "type": "string"
+          },
+          "recurrence": {
+            "type": "string"
+          },
+          "source": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "start": {
+            "type": "string"
+          },
+          "status": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updatedAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "weeklyExecutionDetails": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "JobExecution": {
+        "type": "object",
+        "properties": {
+          "backups": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "copyDetails": {
+            "type": "string"
+          },
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createdBy": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "details": {
+            "type": "string"
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "isResync": {
+            "type": "boolean"
+          },
+          "job": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "jobRestartCount": {
+            "type": "integer"
+          },
+          "jobType": {
+            "type": "string"
+          },
+          "logs": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "previousSyncId": {
+            "type": "string"
+          },
+          "resyncInitiated": {
+            "type": "boolean"
+          },
+          "status": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "string"
+          }
+        }
+      },
+      "JobExecutionTransfer": {
+        "type": "object",
+        "properties": {
+          "destFileId": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "destFs": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "error": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "isBackup": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "isError": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "jobExecutionId": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "jobId": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "name": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "rcloneJobId": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "size": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "srcFileId": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "srcFs": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "Log": {
+        "type": "object",
+        "properties": {
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createdBy": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "drive": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "isBackUp": {
+            "type": "boolean"
+          },
+          "job": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "jobExecution": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "logNote": {
+            "type": "string"
+          },
+          "logType": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "status": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "LoginResponse": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "factorId": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "oktaId": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "MailStatus": {
+        "type": "object",
+        "properties": {
+          "response": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "MetaQueryPayload": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "MonthlySyncReport": {
+        "type": "object",
+        "properties": {
+          "errorCount": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "failedCount": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "month": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "partialSuccess": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "successCount": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "unChangedFiles": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "unSyncedFiles": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "Mutation": {
+        "type": "object",
+        "properties": {
+          "abortJobExecution": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "authenticateDrive": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "checkPasswordLinkExpiry": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "copyData": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createAlert": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createBackup": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createBackupFile": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createDrive": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createDriveAlert": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createDriveUser": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createDriveUsers": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createEmailMap": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createFolder": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "createJob": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createJobExecution": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createLog": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createNotification": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createOrganization": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createRestore": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createUser": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deleteAlert": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deleteBackup": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deleteBackupFile": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deleteDrive": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deleteDriveAlert": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deleteDriveUser": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deleteEmailMap": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deleteJob": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deleteJobExecution": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deleteLog": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deleteNotification": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deleteOrganization": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deleteRestore": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deleteUser": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "generateOtp": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "login": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "otpVerify": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "readAllNotification": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "reauthenticateDrive": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "registerWithOkta": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "resendOTP": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "resetPassword": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "resetUsername": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "retryPartialSuccessJobExecution": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updateAlert": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updateBackup": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updateBackupFile": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updateDrive": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updateDriveAlert": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updateDriveUser": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updateEmailMap": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updateJob": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updateJobExecution": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updateLog": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updateNotification": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updateOrganization": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updateRestore": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updateUser": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "Notification": {
+        "type": "object",
+        "properties": {
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "drive": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "isRead": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "job": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "jobExecution": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "note": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "notificationType": {
+            "type": "string"
+          },
+          "organization": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "status": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "user": {
+            "type": "object",
+            "additionalProperties": {}
+          }
+        }
+      },
+      "Organization": {
+        "type": "object",
+        "properties": {
+          "address": {
+            "type": "string"
+          },
+          "backup": {
+            "type": "string"
+          },
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deleteBackupAfterDays": {
+            "type": "number"
+          },
+          "driveProviders": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "drives": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "limits": {
+            "type": "string"
+          },
+          "name": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "oktaClientId": {
+            "type": "string"
+          },
+          "oktaOrgUrl": {
+            "type": "string"
+          },
+          "oktaToken": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "users": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "Query": {
+        "type": "object",
+        "properties": {
+          "_alertsMeta": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "_driveAlertsMeta": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "_driveUsersMeta": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "_drivesMeta": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "_jobExecutionsMeta": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "_jobsMeta": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "_logsMeta": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "_organizationsMeta": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "_usersMeta": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "alert": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "alerts": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "alertsTriggerMeta": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "backup": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "backupFile": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "backupFiles": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "backups": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "dashBoardJobMeta": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "dashBoardUserActivity": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "drive": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "driveAlert": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "driveAlerts": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "driveFiles": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "driveFilesOfPath": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "driveFolders": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "driveReport": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "driveUser": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "driveUsers": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "driveUsersPermission": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "drives": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "emailMap": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "emailMaps": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "forgotPassword": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "forgotUserName": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "getDriveFolders": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "globalAlerts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "globalSearch": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "job": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "jobExecution": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "jobExecutionErrorGraph": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "jobExecutionTransfers": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "jobExecutions": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "jobReport": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "jobs": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "log": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "logs": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "notification": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "notifications": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "notificationsMeta": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "organization": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "organizationReport": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "organizations": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "resendInviteLink": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "restore": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "restores": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "scheduledJobCategoryMeta": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "user": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "userInfo": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "users": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "Report": {
+        "type": "object",
+        "properties": {
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "report": {
+            "type": "string"
+          }
+        }
+      },
+      "Restore": {
+        "type": "object",
+        "properties": {
+          "backup": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createdBy": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "details": {
+            "type": "string"
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "status": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "ScheduledJobcategoryMeta": {
+        "type": "object",
+        "properties": {
+          "daily": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "monthly": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "off": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "weekly": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "StorageHistory": {
+        "type": "object",
+        "properties": {
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "usedStorage": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "Subscription": {
+        "type": "object",
+        "properties": {
+          "bellNotification": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "dragAndDrop": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "globalAlert": {
+            "type": "object",
+            "additionalProperties": {}
+          }
+        }
+      },
+      "TokenValid": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "valid": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "User": {
+        "type": "object",
+        "properties": {
+          "createdAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "createdDrives": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "driveUser": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "email": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "jobExecutions": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "jobs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "logs": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "oktaId": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "organization": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "permissions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "profileDetails": {
+            "type": "string"
+          },
+          "roles": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "updatedAt": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "username": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "UserActivities": {
+        "type": "object",
+        "properties": {
+          "alertsTriggered": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "jobs": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "reportsDownloaded": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "restore": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "UserInfo": {
+        "type": "object",
+        "properties": {
+          "OrganizationsId": {
+            "type": "string"
+          },
+          "accessToken": {
+            "type": "string"
+          },
+          "email": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "id": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "oktaId": {
+            "type": "string"
+          },
+          "permissions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "roles": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "status": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "username": {
+            "type": "string"
+          }
+        }
+      },
+      "__Directive": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "description": {
+            "type": "string"
+          },
+          "isRepeatable": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "locations": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "args": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "__EnumValue": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "description": {
+            "type": "string"
+          },
+          "isDeprecated": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deprecationReason": {
+            "type": "string"
+          }
+        }
+      },
+      "__Field": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "description": {
+            "type": "string"
+          },
+          "args": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "type": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "isDeprecated": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deprecationReason": {
+            "type": "string"
+          }
+        }
+      },
+      "__InputValue": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "description": {
+            "type": "string"
+          },
+          "type": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "defaultValue": {
+            "type": "string"
+          },
+          "isDeprecated": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "deprecationReason": {
+            "type": "string"
+          }
+        }
+      },
+      "__Schema": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "types": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "queryType": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "mutationType": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "subscriptionType": {
+            "type": "object",
+            "additionalProperties": {}
+          },
+          "directives": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          }
+        }
+      },
+      "__Type": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "type": "object",
+            "required": [],
+            "properties": {}
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "specifiedByURL": {
+            "type": "string"
+          },
+          "fields": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "interfaces": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "possibleTypes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "enumValues": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "inputFields": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "ofType": {
+            "type": "object",
+            "additionalProperties": {}
+          }
+        }
+      }
+    }
+  }
+}
